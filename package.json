@@ -1,0 +1,14 @@
+{
+  "name": "az-204-prep",
+  "version": "1.0.0",
+  "description": "This is a sample repository to prepare for AZ-204 certification, just touching couple of topics to get the feeling.",
+  "main": "index.js",
+  "scripts": {
+    "postinstall": "cd 1-app-service-simple && npm install",
+    "build": "cd 1-app-service-simple && npm run build",
+    "start": "cd 1-app-service-simple && npm start"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC"
+}
